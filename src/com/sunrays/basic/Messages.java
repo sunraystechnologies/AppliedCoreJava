@@ -15,6 +15,7 @@ public class Messages {
 	private static final ResourceBundle RESOURCE_BUNDLE = ResourceBundle
 			.getBundle("com.basic.messages");
 
+
 	public static String getString(String key) {
 		try {
 			return RESOURCE_BUNDLE.getString(key);

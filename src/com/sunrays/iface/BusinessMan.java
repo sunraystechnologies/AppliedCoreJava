@@ -7,8 +7,7 @@ package com.sunrays.iface;
  *
  */
 
-public class BusinessMan 
-implements RichMan, SocialWorker {
+public class BusinessMan implements RichMan, SocialWorker {
 	
 	private String name;
 	private String address;

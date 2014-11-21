@@ -14,7 +14,7 @@ import java.awt.event.FocusListener;
 public class FocusHandler extends FocusAdapter {
 
 	public void focusGained(FocusEvent arg0) {
-		System.out.println("Focus Gained");
+		System.out.println("Focus Gained!");
 
 	}
 

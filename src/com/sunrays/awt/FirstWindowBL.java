@@ -2,6 +2,16 @@ package com.sunrays.awt;
 
 import java.awt.*;
 
+/**
+ * 
+ * @version 1.0
+ * @since 16 Nov 2014
+ * @author SUNRAYS Developer
+ * @Copyright (c) sunRays Technologies. All rights reserved.
+ * @URL www.sunrays.co.in
+ */
+
+
 public class FirstWindowBL {
 
 	public static void main(String[] args) {

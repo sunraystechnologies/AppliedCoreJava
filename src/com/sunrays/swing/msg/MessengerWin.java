@@ -14,6 +14,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+
+
 /*
  * copyright (c) sunRays Technologies Indore
  * @author: sunRays Developer
@@ -29,6 +31,7 @@ public class MessengerWin extends JFrame {
 	public JTextField message = new JTextField("Enter your message here");
 	public JList userList = new JList();
 	public JTextArea messageBoard = new JTextArea();
+	
 	
 	public MessengerWin() {
 		this("sunRays Messenger");
