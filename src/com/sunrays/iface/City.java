@@ -1,10 +1,13 @@
 package com.sunrays.iface;
 
-/*
- * copyright (c) sunRays Technologies Indore
- * @author: sunRays Developer
- * @url : www.sunrays.co.in
- *
+/**
+ * Contains City attributes and implements DropDownList interface
+ * 
+ * @version 1.0
+ * @since 16 Nov 2014
+ * @author SUNRAYS Developer
+ * @Copyright (c) sunRays Technologies. All rights reserved.
+ * @URL www.sunrays.co.in
  */
 
 public class City implements DropDownList {
@@ -14,9 +17,9 @@ public class City implements DropDownList {
 	private String name = null;
 
 	private String state = null;
-	
-	public City(int code, String name, String state){
-		
+
+	public City(int code, String name, String state) {
+
 		this.code = code;
 		this.name = name;
 		this.state = state;
@@ -49,7 +52,7 @@ public class City implements DropDownList {
 	public void setState(String state) {
 		this.state = state;
 	}
-	
+
 	public String getKey() {
 		String key = "" + code; // String.valueOf(code);
 		return key;
@@ -59,7 +62,5 @@ public class City implements DropDownList {
 		String value = code + " - " + name;
 		return value;
 	}
-
-
 
 }

@@ -7,7 +7,17 @@ package com.sunrays.iface;
  *
  */
 
-public class TestInterface {
+/**
+ * Test Dropdown list interface example
+ * 
+ * @version 1.0
+ * @since 16 Nov 2014
+ * @author SUNRAYS Developer
+ * @Copyright (c) sunRays Technologies. All rights reserved.
+ * @URL www.sunrays.co.in
+ */
+
+public class TestDropDownListInterface {
 
 	public static void main(String[] args) {
 
@@ -29,18 +39,9 @@ public class TestInterface {
 				"Bapat Marg");
 		uList[4] = new University(5, "Malipal University", "Manipal");
 
-		// DropDownList dl = new City(1, "Indore", "MP");
-		// City cc = (City) 
-
-		Employee[] eList = new Employee[2];
-		eList[0] = new Employee(1, "Lokesh", "Jha");
-		eList[1] = new Employee(2, "Rajesh", "Jha");
-
 		printList(cList);
 
 		printList(uList);
-		
-		printList(eList);
 
 	}
 

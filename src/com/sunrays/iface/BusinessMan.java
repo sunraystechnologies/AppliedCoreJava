@@ -7,8 +7,8 @@ package com.sunrays.iface;
  *
  */
 
-public class BusinessMan implements RichMan, SocialWorker {
-	
+public class Businessman implements Richman, SocialWorker {
+
 	private String name;
 	private String address;
 
@@ -26,6 +26,22 @@ public class BusinessMan implements RichMan, SocialWorker {
 
 	public void helpToOthers() {
 		System.out.println("Helping to Others");
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 }

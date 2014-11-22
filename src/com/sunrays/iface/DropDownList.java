@@ -7,14 +7,31 @@ package com.sunrays.iface;
  *
  */
 
-public interface DropDownList {
-	
-	//An interface can contain only constants and method declarations
-	
-	public final int NO_OF_LIST = 1;
+/**
+ * Contains Dropdown list interface methods. City, University implements this
+ * inteface to make a drop down list
+ * 
+ * @version 1.0
+ * @since 16 Nov 2014
+ * @author SUNRAYS Developer
+ * @Copyright (c) sunRays Technologies. All rights reserved.
+ * @URL www.sunrays.co.in
+ */
 
+public interface DropDownList {
+
+	/**
+	 * Key of the List
+	 * 
+	 * @return
+	 */
 	public String getKey();
 
+	/**
+	 * Value of the List
+	 * 
+	 * @return
+	 */
 	public String getValue();
 
 }
