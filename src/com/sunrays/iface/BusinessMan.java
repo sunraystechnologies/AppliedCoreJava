@@ -1,10 +1,14 @@
 package com.sunrays.iface;
 
-/*
- * copyright (c) sunRays Technologies Indore
- * @author: sunRays Developer
- * @url : www.sunrays.co.in
+
+/**
+ * Businessman implements two interfaces Social Worker and Richman
  *
+ * @version 1.0
+ * @since 16 Nov 2014
+ * @author SUNRAYS Developer
+ * @Copyright (c) sunRays Technologies. All rights reserved.
+ * @URL www.sunrays.co.in
  */
 
 public class Businessman implements Richman, SocialWorker {
