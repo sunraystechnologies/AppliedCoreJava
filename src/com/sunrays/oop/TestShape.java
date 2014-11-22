@@ -1,26 +1,27 @@
 package com.sunrays.oop;
 
-import com.sunrays.basic.Triangle;
-
-/*
- * copyright (c) sunRays Technologies Indore
- * @author: sunRays Developer
- * @url : www.sunrays.co.in
- *
+/**
+ * Tests Shape class
+ * 
+ * @version 1.0
+ * @since 16 Nov 2014
+ * @author SUNRAYS Developer
+ * @Copyright (c) sunRays Technologies. All rights reserved.
+ * @URL www.sunrays.co.in
  */
 
 public class TestShape {
 
 	public static void main(String[] args) {
 		testCircle();
-		//testTriangle();
-		
+		// testTriangle();
+
 		Circle c = new Circle();
 		Shape s = new Circle();
-		
+
 		Object o = new Circle();
-		Object o1 = new Rectangle();		
-		
+		Object o1 = new Rectangle();
+
 	}
 
 	public static void testCircle() {
@@ -39,11 +40,11 @@ public class TestShape {
 		t.setBorderWidth(34);
 		t.setBase(10);
 		t.setHeight(100);
-		
+
 		System.out.println("Area is " + t.area());
-		
+
 	}
-	
+
 	public static void testShape() {
 
 		Shape s = null; // Declaration

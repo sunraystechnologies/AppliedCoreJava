@@ -1,19 +1,60 @@
 package com.sunrays.oop;
 
-/*
- * copyright (c) sunRays Technologies Indore
- * @author: sunRays Developer
- * @url : www.sunrays.co.in
- *
+/**
+ * Contains Person attributes and overloaded constructors to initialize
+ * attributes.
+ * 
+ * @version 1.0
+ * @since 16 Nov 2014
+ * @author SUNRAYS Developer
+ * @Copyright (c) sunRays Technologies. All rights reserved.
+ * @URL www.sunrays.co.in
  */
-
 public class Person {
 
-	private String name = null;
+	protected String firstName = null;
 
-	private String address = null;
-	
+	protected String lastName = null;
+
+	protected String address = null;
+
+	protected String dob = null;
+
 	private static int AVE_AGE = 60;
+
+	public Person() {
+		System.out.println("***Person Default Constructor");
+	}
+
+	/**
+	 * Parameterized constructor
+	 * 
+	 * @param fn
+	 * @param ln
+	 */
+	public Person(String fn, String ln) {
+
+		System.out.println("***Person 2 param constructor");
+
+		firstName = fn;
+		lastName = ln;
+	}
+
+	/**
+	 * Parameterized constructor
+	 * 
+	 * @param fn
+	 * @param ln
+	 * @param address
+	 */
+	public Person(String fn, String ln, String address) {
+
+		this(fn, ln);
+
+		this.address = address;
+
+		System.out.println("***Person 3 param constructor");
+	}
 
 	public String getAddress() {
 		return address;
@@ -23,15 +64,32 @@ public class Person {
 		this.address = address;
 	}
 
-	public String getName() {
-		return name;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
-	
-	public static int getAveAge(){
-		return AVE_AGE;
+
+	public String getLastName() {
+		return lastName;
 	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public void changeAddress() {
+		System.out.println("Person ka change Address");
+	}
+
+	public String getDob() {
+		return dob;
+	}
+
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
+
 }
